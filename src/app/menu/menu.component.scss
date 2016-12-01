@@ -76,6 +76,7 @@ a, a:active, a:focus{
 }
 
 section.panel#full-screen-nav{
+	z-index: 9;
   position: absolute;
   top:0;
   bottom:0;

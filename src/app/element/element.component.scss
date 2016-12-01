@@ -1,0 +1,74 @@
+.single-beer{
+
+	p{
+		margin-bottom: 0;
+	}
+
+
+	padding: 3px;
+	width: 150px;
+    border: 10px solid brown;
+    border-radius: 15px;
+    margin: 0px auto;
+    height: 150px;
+	 
+	.Gravity {
+	margin-left: 50px;
+	text-align: right;
+	margin-bottom: 0px;
+	font-weight: 600;
+	padding-top: 0px;
+	font-size: 10px;
+	
+	}
+
+
+
+
+
+	.alc_bitter{
+		float: left;
+		font-weight: bold;
+		font-size: 12px;
+
+	}
+
+	.style{
+		padding: 0;
+		font-weight: 500;
+		height: 62px;
+		margin: 0;
+		display: flex;
+		align-items: center;
+		h3{
+			font-size: 20px;
+			text-align: center;
+			display: block;
+			width: 100%;
+		} 
+		
+
+
+	}
+	.cifra{
+		float: left;
+		font-size: 20px;
+		margin-top: 0px auto;
+		color: red;
+		padding-top: 0px;
+		margin-left: 10px;
+		margin-bottom: 0;
+
+
+	}
+
+	.bcolor{
+		margin-left: 50px;
+		text-align: right;
+		margin-top: 18px;
+		font-weight: bold;
+		font-size: 12px;
+
+	}
+
+}
