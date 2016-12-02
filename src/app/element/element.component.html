@@ -1,34 +1,14 @@
-<div class="single-beer">
-	
-
+<div class="beer-row" *ngFor="let beer of beers">
+	<p>{{beer.number}}</p>
+	<div class="single-beer" *ngFor="let element of beer.elements">
 		<div class="cifra">
-		
-	
-			<p> 
-			63
-		
-			</p>
-	
-
+			<p>63</p>
 		</div>
-	
-
-		<p class="Gravity">
-		1.440-1.300<br>1.440-1.300
-		</p>
+		<p class="Gravity">1.440-1.300<br>1.440-1.300</p>
 		<div class="style">
-
 			<h3>Old Scottish Ale</h3>
 		</div>
-
-		<p class="alc_bitter">
-		ABV<br>IBU
-		</p>
-
-		<p class="bcolor">
-		SRM
-		</p>
-	
-
-
+		<p class="alc_bitter">ABV<br>IBU</p>
+		<p class="bcolor">SRM</p>
+	</div>
 </div>

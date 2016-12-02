@@ -5,11 +5,15 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { ElementComponent } from './element/element.component';
+import { RowComponent } from './row/row.component';
+import { RowsPipe } from './rows.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ElementComponent
+    ElementComponent,
+    RowComponent,
+    RowsPipe
   ],
   imports: [
     BrowserModule,
