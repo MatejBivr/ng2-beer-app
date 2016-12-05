@@ -4,23 +4,22 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { BeerService } from './beer.service';
 import { ElementComponent } from './element/element.component';
 import { RowComponent } from './row/row.component';
-import { RowsPipe } from './rows.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     ElementComponent,
-    RowComponent,
-    RowsPipe
+    RowComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [BeerService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

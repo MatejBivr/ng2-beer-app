@@ -2,13 +2,13 @@
 	<p>{{beer.number}}</p>
 	<div class="single-beer" *ngFor="let element of beer.elements">
 		<div class="cifra">
-			<p>63</p>
+			<p>{{element.id}}</p>
 		</div>
-		<p class="Gravity">1.440-1.300<br>1.440-1.300</p>
+		<p class="Gravity">{{element.ogMin}} - {{element.ogMax}}<br>{{element.fgMin}} - {{element.fgMax}}</p>
 		<div class="style">
-			<h3>Old Scottish Ale</h3>
+			<h3>{{element.shortName}}</h3>
 		</div>
-		<p class="alc_bitter">ABV<br>IBU</p>
-		<p class="bcolor">SRM</p>
+		<p class="alc_bitter">{{element.abvMin}}-{{element.abvMax}}<br>{{element.ibuMin}}-{{element.ibuMax}}</p>
+		<p class="bcolor">{{element.srmMin}}-{{element.srmMax}}</p>
 	</div>
 </div>
